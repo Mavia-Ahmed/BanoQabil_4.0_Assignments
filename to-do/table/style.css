@@ -1,0 +1,74 @@
+body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .input-box {
+      margin-bottom: 15px;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      width: 323px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    button {
+      padding: 6px 10px;
+      margin-left: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: #4CAF50;
+      color: white;
+      font-size: 14px;
+    }
+
+    button.edit {
+      background: #2196F3;
+    }
+
+    button.delete {
+      background: #f44336;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 400px; /* Fixed width */
+      background: none;
+    }
+
+    th, td {
+      padding: 8px;
+      vertical-align: top;
+    }
+
+    td.text {
+      width: 70%;
+      white-space: normal;      /* Allow multiple lines */
+      word-wrap: break-word;    /* Break long words */
+      word-break: break-word;   /* Force break if needed */
+    }
+
+    td.actions {
+      width: 30%;
+      text-align: right;
+      white-space: nowrap;      /* Buttons ek line me */
+    }
+
+    td input[type="checkbox"] {
+      margin-right: 8px;
+    }
